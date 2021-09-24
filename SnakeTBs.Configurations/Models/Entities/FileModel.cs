@@ -5,7 +5,7 @@ using System.Text.Json.Serialization;
 
 namespace SnakeTBs.Configurations.Models.Entities
 {
-    public class FileModel
+    internal class FileModel
     {
         [JsonPropertyName("Name")]
         public string Name { get; set; }

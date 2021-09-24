@@ -5,7 +5,7 @@ using System.Text.Json.Serialization;
 
 namespace SnakeTBs.Configurations.Models.Entities
 {
-    public class RootAppSettingsModel
+    internal class RootAppSettingsModel
     {
         [JsonPropertyName("AppSettings")]
         public AppSettingsModel AppSettings { get; set; }
